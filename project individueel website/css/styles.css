@@ -1,0 +1,331 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    background: url('../fotos/background.jpg');
+    background-size: cover;
+    height: 1400px;
+    overflow-y: scroll;
+}
+
+.invisible-buttoneen {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    z-index: 10;
+}
+
+.invisible-buttontwee {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    z-index: 10;
+}
+
+.invisible-buttondrie {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    z-index: 10;
+}
+
+section {
+    position: absolute;
+    color: black;
+    width: 80%;
+    left: 10%;
+}
+
+section h2 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+section p {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.over-mij {
+    top: 350px;
+}
+
+.over-mij h2 {
+    text-align: left;
+}
+
+.over-ijhallen {
+    top: 590px;
+    text-align: center;
+}
+
+.geschiedenis {
+    top: 850px;
+    text-align: center;
+}
+
+.wat-vinden {
+    top: 1090px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 0px;
+}
+
+.fotovanmij {
+    position: absolute;
+    top: 137px;
+    left: 87px;
+    width: auto;
+    height: auto;
+}
+
+.mainfoto {
+    position: absolute;
+    top: -125px;
+    left: 4px;
+    width: auto;
+    height: auto;
+}
+
+.footer-menu {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: #526270;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    border-top: 2px solid black;
+}
+
+.footer-button {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer-button:hover {
+    background: gray;
+    color: white;
+}
+
+body.concept {
+    background: url('../fotos/tweedescherm.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    overflow-y: auto;
+}
+
+.verkopen{
+    top: 155px;
+    text-align: center;
+    left: 45px;
+}
+
+.verkopen p {
+    font-size: 14px;
+}
+
+.kopen{
+    top: 215px;
+    text-align: center;
+    left: 23px;
+}
+
+.kopen p {
+    font-size: 14px;
+}
+
+.ervaring{
+    top: 275px;
+    text-align: center;
+    left: 51px;
+}
+
+.ervaring p{
+    font-size: 14px;
+}
+
+.praktische-info{
+    top: 430px;
+    text-align: center;
+    left: 40px;
+}
+
+.praktische-info p{
+    font-size: 14px;
+}
+
+.praktische-info-kop{
+    top: 385px;
+    text-align: center;
+    left: 45px;
+}
+
+.prijzen-kop{
+    top: 565px;
+    text-align: center;
+    left: 40px;
+}
+
+.prijzen{
+    top: 600px;
+    text-align: center;
+    left: 40px;
+}
+
+.prijzen p{
+    font-size: 14px;
+}
+
+.een{
+    top: 165px;
+    text-align: center;
+    left: -110px;
+}
+
+.twee{
+    top: 225px;
+    text-align: center;
+    left: -110px;
+}
+
+.drie{
+    top: 287px;
+    text-align: center;
+    left: -110px;
+}
+
+body.locatie-pagina {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    background: url('../fotos/derdescherm.jpg') no-repeat center center;
+    background-size: cover;
+    width: 375px;
+    height: 667px;
+    overflow-y: scroll;
+}
+
+.maps-container {
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    margin-left: -17px;
+    top: 100px;
+}
+
+.locatie{
+    top: 75px;
+    text-align: center;
+}
+
+.locatie h2{
+    font-size: 35px;
+}
+
+.overlocatie p{
+    font-size: 15px;
+}
+
+.overlocatie{
+    top: 445px;
+    text-align: center;
+}
+
+.watermark {
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.navbar {
+    position: fixed;
+    top: 12px;
+    right: 10px;
+    z-index: 1000;
+    left: 325px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    left: -300px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background: lightgray;
+}
+
+#menu-toggle:checked ~ .menu {
+    display: block;
+}
+
+.footer-menueen{
+        position: fixed;
+        bottom: 10px;
+        left: 50%;  
+        transform: translateX(-50%);
+        width: 70%;  
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        left: 190px;
+}
+
+.koptekstconcept{
+    bottom: 520px;
+    font-size: 25px;
+    left: 125px;
+}
